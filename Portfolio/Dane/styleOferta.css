@@ -1,0 +1,83 @@
+
+h2
+{
+	color:brown;
+}
+ul
+{
+	list-style-type: none;
+	margin-top: 50px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	padding: 0;
+	color: white;
+	background-color: 3b240f;
+	overflow: hidden;
+	font-size: 40px;
+	font-size:32px;
+	
+}
+
+#offerContainer
+{
+	font-size: 30px;
+	
+}
+
+li
+{
+	float: left;
+	
+	
+}
+
+
+li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 16px 14px;
+	transition: .2s linear;
+}
+
+li a:hover
+{
+ color:#f44f20;
+}
+
+#apkInternetoweLista
+{
+	display: none;
+
+	
+	
+	
+}
+#bazyLista
+{
+	display: none;
+
+	
+	
+}
+#mobilneLista
+{
+	display: none;
+
+	
+	
+}
+.listaOfert
+{
+	position:absolute;
+	background-color: 2a130e;
+	color:white;
+	width: 870px;
+	height:260px;
+	margin-right:auto;
+	margin-left:auto;
+	
+	
+}

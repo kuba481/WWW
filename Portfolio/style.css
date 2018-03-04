@@ -1,0 +1,110 @@
+﻿body
+{
+	background-image: url("Obrazy/palmy2.jpg");      
+	color: white;
+	font-size:45px;
+	text-align: center;
+	font-family: Comic Sans MS;
+	backgroud-attachment: fixed;
+	background-repeat:no-repeat;
+}
+
+#nazwisko
+{
+	float:left;
+	position:relative;
+	top:20px;
+	opacity:0;
+	width:220px;
+	font-weight:800;
+	border: 2px solid white;
+	border-radius: 50%;
+	transition: .4s ease;
+	
+
+}
+#menu
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:928px;
+	margin-bottom:70px;
+		
+	
+}
+.option
+{
+	position:relative;
+	padding:3px;
+	top:100px;
+	opacity:0;
+	float: left;
+	margin:10px;
+	transition: .4s ease;
+	
+	
+		
+}
+
+#nazwisko:hover
+{
+    
+	color:#f44f20;
+	cursor: pointer;
+	border-color: #f44f20;
+	
+	
+	
+}
+
+.option:hover
+{
+	color:#f44f20;
+	cursor: pointer;
+	
+		
+
+}
+
+#container
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:870px;
+	height:570px;
+    display:none;
+	border-radius: 10px;
+	position:relative;
+}
+
+#overlay
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  background-color:#e47962;
+  border-radius:10px;
+}
+
+#mainContent
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  color: #000000;
+  font-size:25px;
+  text-align:center;
+  
+
+  
+}

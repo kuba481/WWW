@@ -1,0 +1,85 @@
+<html>
+	<head>
+	
+	
+		<script >
+			function zmienTekst(){
+				$("p").css("color","yellow");
+			}	
+			function pokazInternetowe()
+			{
+				$("#apkInternetoweLista").fadeToggle(800);
+				$("#bazyLista").fadeOut(300);
+				$("#mobilneLista").fadeOut(300);
+			}
+			function bazyToggle()			
+			{
+			 $("#bazyLista").fadeToggle(800);
+			 $("#mobilneLista").fadeOut(300);
+			 $("#apkInternetoweLista").fadeOut(300);
+			}
+			function mobilneToggle()			
+			{
+			 $("#mobilneLista").fadeToggle(800);
+			 $("#bazyLista").fadeOut(300);
+			 $("#apkInternetoweLista").fadeOut(300);
+			 
+			}
+			
+
+		</script>
+	
+	</head>
+
+	<body>
+
+		<div id="offerContainer">
+
+		<ul>
+
+			<li id="internetowe"  onclick="pokazInternetowe()"> 
+				<a href="#">Aplikacje internetowe</a>
+				
+			</li>
+		
+			<li id="bazy"   onclick="bazyToggle()">
+				<a href="#">Bazy danych </a>
+				
+			</li>
+ 
+			<li id="mobilne"   onclick="mobilneToggle()"> 
+				<a href="#">Aplikacje mobilne </a>
+				
+			</li>
+
+
+		</ul>
+		<div>
+		<div id="mobilneLista" class="listaOfert" >
+					Aplikacje mobilne tworzę z wykorzystaniem środowiska Android Studio. <br>
+					Tworzę oprogramowanie do najnowszych systemów android oraz IOS.<br>
+					Potrafię oprogramować urządzenia takie jak Smart Watch oraz android na komputery samochodowe.
+					
+				</div>
+		
+		<div id="apkInternetoweLista" class="listaOfert">
+					Aplikacje internetowe z wykorzystaniem technologi : <br>
+						HTML , CSS , JavaScript , Php , JQuery , Angular
+						
+				</div>
+				
+		<div id="bazyLista" class="listaOfert">
+					Projektowanie i tworzenie baz danych PostgreSQL oraz MySQL.
+					
+				</div>
+		<div>
+
+
+</div>
+
+
+
+
+</body>
+
+</html>
