@@ -1,0 +1,114 @@
+body
+{
+	margin: 0px;
+	background-image: url("Obrazy-Egipt/Tlo.jpg")
+}
+
+.logo
+{
+	position: absolute;
+	left: 1355px;
+	padding: 45px;
+	background-color: yellow;
+}
+
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: brown;
+	overflow: hidden;
+	font-size: 30px;
+}
+
+li
+{
+	float: left;
+	
+}
+
+li a
+{
+	text-decoration: none !important;
+	color: white !important;
+	display: block;
+	padding: 16px 14px;
+	transition: .2s linear;
+}
+
+li:hover a
+{
+	background-color: #ff8c1a;
+}
+
+.FaraonowieZawartosc
+{
+	display: none;
+	position: absolute;
+	min-width: 100px;
+	background-color: #ff8c1a;
+	z-index: 1;
+	
+}
+
+.Far:hover .FaraonowieZawartosc
+{
+ display: block;	
+}
+
+.FaraonowieZawartosc a:hover
+{
+	background-color: white;
+	color: #ff8c1a !important;
+}
+
+
+.BudowleZawartosc
+{
+	display: none;
+	position: absolute;
+	min-width: 100px;
+	background-color: #ff8c1a;
+	z-index: 1;
+}
+
+.Bud:hover .BudowleZawartosc
+{
+	display:block;
+}
+
+.BudowleZawartosc a:hover
+{
+	background-color: white;
+	color: #ff8c1a !important;
+}
+
+.tresc
+{
+	margin-top: 50px;
+	width:1100px;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+#map
+{
+	float: left;
+	width: 50%;
+	height: 400px;
+	margin: 0;
+    
+}
+
+.informacje
+{
+	float: left;
+	width: 50%;
+	max-height: 400px;
+	overflow: hidden;
+    margin: 0;
+	background-color: brown;
+}	

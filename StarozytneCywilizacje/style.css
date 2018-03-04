@@ -1,0 +1,229 @@
+body
+{
+	background-image: url("tlo.jpg");
+
+	font-size: 20px;
+
+}
+
+img
+{
+	display: block;
+	width: 500px;
+	height: 500px;
+}
+
+a
+{
+ text-decoration: none;	
+}
+
+a:visited
+{
+	color:black;
+}
+#pojemnik
+{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#Naglowek
+{
+	font-size: 100px;
+	color: brown;
+	text-align: center;
+	
+	padding: 14px;
+	border-radius: 35px;
+	text-shadow: 4px 5px #b35900;
+	font-family: impact;
+}
+
+#opcje
+{
+	margin-top: 20px;
+}
+
+
+.image
+{
+	display: block;
+	height: 500px;
+	width: 500px;
+}
+
+.overlay
+{
+	position: absolute;
+    top: 0;
+	height: 500px;
+	width: 500px;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: brown;
+}
+
+.Egipt:hover .overlay
+{
+	opacity: 0.8;
+}
+
+.tekst
+{
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	font-size: 25px;
+	color: white;
+}
+
+.Egipt
+{
+	position: relative;
+	float: left;
+	margin: 50px;
+	height: 500px;
+	width: 500px;
+	
+}
+
+
+
+.overlaySum
+{
+	position: absolute;
+	top: 0;
+	height: 500px;
+	width: 500px;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: brown;
+}
+
+.tekstSum
+{
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	font-size: 25px;
+	color: white;
+}
+
+.Sumerowie
+{
+	position: relative;
+	float: left;
+	margin: 50px;
+	height: 500px;
+	width: 500px;
+	
+}
+
+.Sumerowie:hover .overlaySum
+{
+	opacity: 0.8;
+}
+
+
+
+
+.Aztekowie
+{
+	position: relative;
+	float: left;
+	margin: 50px;
+	height: 500px;
+	width: 500px;
+
+}
+
+.overlayAzt
+{
+	position: absolute;
+	top: 0;
+	height: 500px;
+	width: 500px;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: brown;
+}
+
+.tekstAzt
+{
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	font-size: 25px;
+	color: white;
+}
+
+.Aztekowie:hover .overlayAzt
+{
+	opacity: 0.8;
+}
+
+
+
+.Chiny
+{
+	position: relative;
+	float: left;
+	margin: 50px;
+	height: 500px;
+	width: 500px;
+	
+}
+
+.overlayChi
+{
+	position: absolute;
+	top: 0;
+	height: 500px;
+	width: 500px;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: brown;
+}
+
+.tekstChi
+{
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	font-size: 25px;
+	color: white;
+}
+
+.Chiny:hover .overlayChi
+{
+	opacity: 0.8;
+}
+
+.button
+{
+	background-color: white; 
+    color: red; 
+    border: 2px solid #f44336;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	transition: 0.4s ease;
+	margin:auto;
+	cursor: pointer;
+}
+
+.button:hover {
+    background-color: #f44336;
+    color: white;
+}

@@ -1,0 +1,31 @@
+body
+{
+	background-color: grey;
+	
+}
+
+p
+{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	
+}
+
+.Ja
+{
+	font-size: 20px;
+}
+
+.Omnie
+{	margin-left: 280px;
+    margin-right: auto;
+	height: 260px;
+	width: 50%;
+	background-color: darkgrey;
+	float: left;
+	font-size: 20px;
+}
+
+
+
